@@ -1,0 +1,40 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  transition:all 0.3s ease;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.jumbotron{
+    
+   background-image: url("../../../../Images/banner.jpg");
+   background-size: 100% 100%;
+}
+
+.label:hover
+{
+    background: #66DA76;
+     
+}
+
+.answer:hover
+{
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+        
+}
+

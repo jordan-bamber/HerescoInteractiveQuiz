@@ -1,0 +1,30 @@
+<h2>HTML LocalStorage Example</h2>
+
+<html>
+<head>
+    <script>
+        function save() {
+            var fieldValue = document.getElementById('textfield').value;
+            localStorage.setItem('text', fieldValue);
+        }
+        
+        function load() {
+            var storedValue = localStorage.getItem('text');
+            if (storedValue){
+                document.getElementById('textfield').value = storedValue;
+            }
+        }
+    </script>
+</head> 
+
+<body onload = "load()">
+<input type= "text" id= "textfield" />
+<input type= 'button' value = "save" onclick= "save()" />
+</body>
+</html>
+
+
+
+<!-- source https://www.youtube.com/watch?v=Jc_Yycz7MEc -->
+
+

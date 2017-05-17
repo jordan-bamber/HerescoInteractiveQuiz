@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=Jc_Yycz7MEc simple example I used locally
+http://jsfiddle.net/ccatto/G2SyC/2/     great example
+http://stackoverflow.com/questions/4461884/local-storage-html5-demo-with-code stackoverflow helpful discussion and links
+http://diveintohtml5.info/storage.html  general info
